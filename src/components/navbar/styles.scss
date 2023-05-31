@@ -1,0 +1,19 @@
+.navbar {
+  height: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: end;
+  margin: 0 80px;
+  &__items {
+    display: flex;
+    justify-content: end;
+    gap: 60px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+  }
+  &__language {
+    padding-left: 130px;
+  }
+}

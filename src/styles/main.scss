@@ -1,0 +1,25 @@
+// @import "./variables.scss";
+@import "./reset.scss";
+// @import "./media.scss";
+
+@font-face {
+  font-family: "Satoshi";
+  src: url(../fonts/Satoshi-Variable.ttf);
+  font-style: normal;
+}
+
+html,
+body {
+  min-height: 100vh;
+  font-family: "Satoshi";
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

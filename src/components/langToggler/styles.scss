@@ -1,0 +1,13 @@
+.toggler {
+  display: flex;
+  gap: 10px;
+  button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+  }
+  .notSelected {
+    color: #7e7e7e;
+  }
+}
