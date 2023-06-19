@@ -1,9 +1,11 @@
 .navbar {
+  position: absolute;
   height: 80px;
+  width: 100vw;
   align-items: center;
   display: flex;
   justify-content: end;
-  margin: 0 80px;
+  padding: 0 80px;
   &__items {
     display: flex;
     justify-content: end;

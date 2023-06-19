@@ -1,0 +1,37 @@
+.homePage {
+  &__hero {
+    height: 100vh;
+    padding: 0 80px;
+    background-image: url("../../assets/img/heroImage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    &-header {
+      display: flex;
+      gap: 160px;
+      height: 90%;
+      &__title {
+        padding-top: 18px;
+        font-weight: 900;
+        font-size: 227px;
+        line-height: 306px;
+      }
+      &__descr {
+        padding-top: 216px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 54px;
+      }
+    }
+    &-bottom {
+      display: flex;
+      justify-content: space-between;
+      &__info {
+        width: 510px;
+      }
+      &__buttons {
+        display: flex;
+        gap: 20px;
+      }
+    }
+  }
+}

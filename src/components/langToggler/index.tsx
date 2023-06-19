@@ -5,7 +5,6 @@ import "./styles.scss";
 export const LangToggler: React.FC = () => {
   const { i18n } = useTranslation();
   const [currentLanguage, setCurrentLanguage] = useState(i18n.language);
-  console.log(currentLanguage);
 
   const handleLanguageChange = (lang: string) => {
     localStorage.setItem("language", lang);
