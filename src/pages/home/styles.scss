@@ -34,4 +34,34 @@
       }
     }
   }
+  &__specialize {
+    padding: 80px 80px 130px 0;
+    margin-left: auto;
+    width: 710px;
+    &-title {
+      font-weight: 700;
+      font-size: 55px;
+      line-height: 74px;
+      padding-bottom: 68px;
+    }
+    &-offers {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 80px;
+      &__item {
+        width: 270px;
+        &-title {
+          padding-bottom: 32px;
+          font-weight: 500;
+          font-size: 28px;
+          line-height: 38px;
+        }
+        &-descr {
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 27px;
+        }
+      }
+    }
+  }
 }
