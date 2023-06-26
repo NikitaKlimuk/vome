@@ -1,4 +1,5 @@
 import ButtonLink from "../../components/buttonLink";
+import { CustomSlider } from "../../components/slider";
 import "./styles.scss";
 
 export const HomePage = () => {
@@ -73,6 +74,7 @@ export const HomePage = () => {
           </div>
         </div>
       </section>
+      <CustomSlider />
     </div>
   );
 };

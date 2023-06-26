@@ -2,6 +2,9 @@
 @import "./reset.scss";
 // @import "./media.scss";
 
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 @font-face {
   font-family: "Satoshi";
   src: url(../fonts/Satoshi-Variable.ttf);
