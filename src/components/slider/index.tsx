@@ -1,4 +1,7 @@
 import Slider from "react-slick";
+import slider1 from "../../assets/img/slider/slider1.jpg";
+import slider2 from "../../assets/img/slider/slider2.jpg";
+import "./styles.scss";
 
 export const CustomSlider: React.FC = () => {
   var settings = {
@@ -9,25 +12,45 @@ export const CustomSlider: React.FC = () => {
     slidesToScroll: 1,
   };
   return (
-    <Slider {...settings}>
-      <div>
-        <h3>1</h3>
-      </div>
-      <div>
-        <h3>2</h3>
-      </div>
-      <div>
-        <h3>3</h3>
-      </div>
-      <div>
-        <h3>4</h3>
-      </div>
-      <div>
-        <h3>5</h3>
-      </div>
-      <div>
-        <h3>6</h3>
-      </div>
-    </Slider>
+    <div className="slider">
+      <Slider {...settings}>
+        <div className="slider__item">
+          <a href="/">
+            <img src={slider1} alt="alt for img" />
+            <h3>Title for video</h3>
+          </a>
+        </div>
+        <div className="slider__item">
+          <a href="/">
+            <img src={slider2} alt="alt for img" />
+            <h3>Title for video</h3>
+          </a>
+        </div>
+        <div className="slider__item">
+          <a href="/">
+            <img src={slider1} alt="alt for img" />
+            <h3>Title for video</h3>
+          </a>
+        </div>
+        <div className="slider__item">
+          <a href="/">
+            <img src={slider2} alt="alt for img" />
+            <h3>Title for video</h3>
+          </a>
+        </div>
+        <div className="slider__item">
+          <a href="/">
+            <img src={slider1} alt="alt for img" />
+            <h3>Title for video</h3>
+          </a>
+        </div>
+        <div className="slider__item">
+          <a href="/">
+            <img src={slider2} alt="alt for img" />
+            <h3>Title for video</h3>
+          </a>
+        </div>
+      </Slider>
+    </div>
   );
 };

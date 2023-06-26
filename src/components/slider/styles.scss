@@ -1,0 +1,18 @@
+.slider {
+  width: 960px;
+  &__item {
+    position: relative;
+    a {
+      img {
+      }
+      h3 {
+        position: absolute;
+        bottom: 48px;
+        left: 48px;
+        color: #fff;
+        font-size: 32px;
+        font-weight: 500;
+      }
+    }
+  }
+}
