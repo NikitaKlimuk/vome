@@ -26,10 +26,10 @@ export const HomePage = () => {
       </section>
       <hr className="main-line" />
       <section className="homePage__specialize">
-        <div className="homePage__specialize-title">
+        <h3 className="homePage__specialize-title">
           We specialize in creating unique and vibrant video tours that allow
           realtors and homeowners
-        </div>
+        </h3>
         <div className="homePage__specialize-offers">
           <div className="homePage__specialize-offers__item">
             <hr className="base-line" />
@@ -87,6 +87,38 @@ export const HomePage = () => {
           </div>
         </div>
         <CustomSlider />
+      </section>
+      <section className="homePage__contacts">
+        <div className="homePage__contacts-title">
+          <h3>Contacts</h3>
+          <p>Contact us in any way that works for you</p>
+        </div>
+        <div className="homePage__contacts-info">
+          <div className="homePage__contacts-info__item">
+            <hr className="base-line" />
+            <div className="homePage__contacts-info__item-title">Phone</div>
+            <div className="homePage__contacts-info__item-descr">
+              +48514060233
+            </div>
+          </div>
+          <div className="homePage__contacts-info__item">
+            <hr className="base-line" />
+            <div className="homePage__contacts-info__item-title">Email</div>
+            <div className="homePage__contacts-info__item-descr">
+              Example123@gmail.com
+            </div>
+          </div>
+          <div className="homePage__contacts-info__item">
+            <hr className="base-line" />
+            <div className="homePage__contacts-info__item-title">FaceBook</div>
+            <div className="homePage__contacts-info__item-descr">@Vome</div>
+          </div>
+          <div className="homePage__contacts-info__item">
+            <hr className="base-line" />
+            <div className="homePage__contacts-info__item-title">Telegram</div>
+            <div className="homePage__contacts-info__item-descr">@Vome</div>
+          </div>
+        </div>
       </section>
     </div>
   );
