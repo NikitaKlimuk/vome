@@ -74,7 +74,20 @@ export const HomePage = () => {
           </div>
         </div>
       </section>
-      <CustomSlider />
+      <section className="homePage__slider">
+        <div className="homePage__slider-control">
+          <h3>Latest Videos</h3>
+          <div className="homePage__slider-control__button">
+            <p>Welcome to Captivating Ssale in Poland</p>
+            <ButtonLink
+              title="All Porfolio"
+              link="/portfolio"
+              className="btn-outwhite"
+            />
+          </div>
+        </div>
+        <CustomSlider />
+      </section>
     </div>
   );
 };

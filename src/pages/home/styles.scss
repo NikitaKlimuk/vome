@@ -64,4 +64,32 @@
       }
     }
   }
+  &__slider {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: #151623;
+    h3 {
+      width: 171px;
+      padding-top: 53px;
+      padding-left: 60px;
+      color: var(--white, #fff);
+      font-size: 48px;
+      font-weight: 700;
+    }
+    &-control {
+      display: flex;
+      flex-direction: column;
+      gap: 430px;
+      &__button {
+        padding-left: 60px;
+        p {
+          color: var(--white, #fff);
+          font-size: 20px;
+          width: 246px;
+          padding-bottom: 32px;
+        }
+      }
+    }
+  }
 }

@@ -19,3 +19,26 @@
     top: 1px;
   }
 }
+.btn-outwhite {
+  display: flex;
+  padding: 12px 36px;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  width: 190px;
+  background: #151623;
+  border-radius: 4px;
+  border: 1px solid var(--white, #fff);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  transition: opacity 0.2s ease-in;
+  &:hover {
+    opacity: 0.8;
+  }
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+}
