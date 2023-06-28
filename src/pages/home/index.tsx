@@ -9,16 +9,16 @@ export const HomePage = () => {
         <div className="homePage__hero-header">
           <h1 className="homePage__hero-header__title">Vome</h1>
           <div className="homePage__hero-header__descr">
-            Where Every Property Tells a Story
+            <h2> Where Every Property Tells a Story</h2>
+            <p>
+              Welcome to Vome - your partner for real estate photography and
+              videography services in Poland. We specialize in creating
+              high-quality and captivating visuals that will help you sell or
+              rent properties quickly and effectively.
+            </p>
           </div>
         </div>
         <div className="homePage__hero-bottom">
-          <p className="homePage__hero-bottom__info">
-            Welcome to Vome - your partner for real estate photography and
-            videography services in Poland. We specialize in creating
-            high-quality and captivating visuals that will help you sell or rent
-            properties quickly and effectively.
-          </p>
           <div className="homePage__hero-bottom__buttons">
             <ButtonLink title="Porfolio" link="/portfolio" />
             <ButtonLink title="Price" link="/price" />
