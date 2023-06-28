@@ -1,16 +1,10 @@
 .slider {
-  width: 960px;
+  width: 1440px;
   &__item {
     position: relative;
-    a {
-      h3 {
-        position: absolute;
-        bottom: 48px;
-        left: 48px;
-        color: #fff;
-        font-size: 32px;
-        font-weight: 500;
-      }
+    height: 800px;
+    img {
+      height: inherit;
     }
   }
 }

@@ -7,21 +7,18 @@ export const Footer: React.FC<IProps> = () => {
     <section className="footer">
       <div className="footer__title">
         <h2>Vome</h2>
-        <h3>Real estate videos</h3>
+        <h3>Where Every Property Tells a Story</h3>
         <p>
-          Welcome to Captivating Spaces - a professional portfolio of a property
-          photography and videography operator
+          Welcome to Vome - your partner for real estate photography and
+          videography services in Poland
         </p>
       </div>
       <div className="footer__links">
         <div className="footer__links-menu">
           <ul aria-label="Site sections">
-            <li>Our Results</li>
-            <li>Partners</li>
-            <li>Rates</li>
-            <li>Reviews</li>
-            <li>FAQ</li>
-            <li>Contact</li>
+            <li>Portfolio</li>
+            <li>Prices</li>
+            <li>About</li>
           </ul>
         </div>
         <div className="footer__links-info">

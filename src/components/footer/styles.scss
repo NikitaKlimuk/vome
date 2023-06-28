@@ -1,25 +1,24 @@
 .footer {
-  height: 420px;
   background: var(--black, #000);
   color: #fff;
-  padding: 66px 164px 50px 104px;
+  padding: 70px 120px;
   display: flex;
-  gap: 340px;
+  justify-content: space-between;
   &__title {
     h2 {
       font-size: 47px;
       font-weight: 900;
+      padding-bottom: 30px;
     }
     h3 {
-      padding-top: 95px;
       font-size: 21px;
       font-weight: 900;
+      padding-bottom: 20px;
     }
     p {
-      padding-top: 20px;
       color: #747474;
       font-size: 16px;
-      width: 280px;
+      width: 360px;
     }
   }
   &__links {

@@ -7,16 +7,17 @@ export const HomePage = () => {
     <div className="homePage">
       <section className="homePage__hero">
         <div className="homePage__hero-header">
-          <div className="homePage__hero-header__title">Vome</div>
+          <h1 className="homePage__hero-header__title">Vome</h1>
           <div className="homePage__hero-header__descr">
-            Capturing apartments for sale in Poland.
+            Where Every Property Tells a Story
           </div>
         </div>
         <div className="homePage__hero-bottom">
           <p className="homePage__hero-bottom__info">
-            Welcome to Captivating Spaces - a professional portfolio of a
-            property photography and videography operator specializing in
-            capturing apartments for sale in Poland.
+            Welcome to Vome - your partner for real estate photography and
+            videography services in Poland. We specialize in creating
+            high-quality and captivating visuals that will help you sell or rent
+            properties quickly and effectively.
           </p>
           <div className="homePage__hero-bottom__buttons">
             <ButtonLink title="Porfolio" link="/portfolio" />
@@ -27,58 +28,58 @@ export const HomePage = () => {
       <hr className="main-line" />
       <section className="homePage__specialize">
         <h3 className="homePage__specialize-title">
-          We specialize in creating unique and vibrant video tours that allow
-          realtors and homeowners
+          We offer a full range of real estate photography and videography
+          services.
         </h3>
         <div className="homePage__specialize-offers">
           <div className="homePage__specialize-offers__item">
             <hr className="base-line" />
             <div className="homePage__specialize-offers__item-title">
-              Wat We Do
+              Professional Quality
             </div>
             <div className="homePage__specialize-offers__item-descr">
-              Welcome to Captivating Spaces - a professional portfolio of a
-              property photography and videography operator
+              We strive for excellence and deliver high-quality photos and
+              videos that capture the ambiance and attractiveness of each
+              property.
             </div>
           </div>
           <div className="homePage__specialize-offers__item">
             <hr className="base-line" />
             <div className="homePage__specialize-offers__item-title">
-              Fast Service
+              Creativity
             </div>
             <div className="homePage__specialize-offers__item-descr">
-              Welcome to Captivating Spaces - a professional portfolio of a
-              property photography and videography operator
+              We have an eye for the uniqueness of every home and find creative
+              ways to accentuate its advantages.
             </div>
           </div>
           <div className="homePage__specialize-offers__item">
             <hr className="base-line" />
             <div className="homePage__specialize-offers__item-title">
-              You Will Got
+              Efficiency
             </div>
             <div className="homePage__specialize-offers__item-descr">
-              Welcome to Captivating Spaces - a professional portfolio of a
-              property photography and videography operator
+              Our team works quickly and professionally to ensure your
+              properties are ready for showcasing in the shortest possible time.
             </div>
           </div>
           <div className="homePage__specialize-offers__item">
             <hr className="base-line" />
             <div className="homePage__specialize-offers__item-title">
-              Fast Service
+              Personalization
             </div>
             <div className="homePage__specialize-offers__item-descr">
-              Welcome to Captivating Spaces - a professional portfolio of a
-              property photography and videography operator specializing in
-              capturing apartments for sale in Poland.
+              We take into account your individual needs and aim to provide you
+              with a solution that reflects the uniqueness of each property.
             </div>
           </div>
         </div>
       </section>
       <section className="homePage__slider">
         <div className="homePage__slider-control">
-          <h3>Latest Videos</h3>
+          <h3>Portfolio</h3>
           <div className="homePage__slider-control__button">
-            <p>Welcome to Captivating Ssale in Poland</p>
+            <p>Discover the Beauty of Properties</p>
             <ButtonLink
               title="All Porfolio"
               link="/portfolio"
@@ -105,12 +106,12 @@ export const HomePage = () => {
             <hr className="base-line" />
             <div className="homePage__contacts-info__item-title">Email</div>
             <div className="homePage__contacts-info__item-descr">
-              Example123@gmail.com
+              VomePoland@gmail.com
             </div>
           </div>
           <div className="homePage__contacts-info__item">
             <hr className="base-line" />
-            <div className="homePage__contacts-info__item-title">FaceBook</div>
+            <div className="homePage__contacts-info__item-title">Instagram</div>
             <div className="homePage__contacts-info__item-descr">@Vome</div>
           </div>
           <div className="homePage__contacts-info__item">
