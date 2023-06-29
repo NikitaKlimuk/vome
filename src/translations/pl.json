@@ -1,0 +1,45 @@
+{
+  "navbar": {
+    "portfolio": "Portfolio",
+    "prices": "Ceny",
+    "about": "O nas"
+  },
+  "hero": {
+    "title": "Gdzie każda nieruchomość opowiada historię",
+    "descr": "Witaj w Vome - Twoim partnerem w zakresie usług fotografii i wideofilmowania nieruchomości w Polsce. Specjalizujemy się w tworzeniu wysokiej jakości i intrygujących wizualizacji, które pomogą Ci szybko i skutecznie sprzedawać lub wynajmować nieruchomości."
+  },
+  "offers": {
+    "title": "Oferujemy pełen zakres usług fotografii i wideofilmowania nieruchomości.",
+    "quality": {
+      "title": "Profesjonalna Jakość",
+      "descr": "Dążymy do doskonałości i dostarczamy wysokiej jakości zdjęcia i filmy, które oddają atmosferę i atrakcyjność każdej nieruchomości."
+    },
+    "creativity": {
+      "title": "Kreatywność",
+      "descr": "Mamy oko do unikalności każdego domu i znajdujemy kreatywne sposoby, aby podkreślić jego zalety."
+    },
+    "efficiency": {
+      "title": "Efektywność",
+      "descr": "Nasz zespół pracuje szybko i profesjonalnie, aby Twoje nieruchomości były gotowe do prezentacji w jak najkrótszym czasie."
+    },
+    "personalization": {
+      "title": "Personalizacja",
+      "descr": "Bierzemy pod uwagę Twoje indywidualne potrzeby i staramy się zapewnić Ci rozwiązanie, które odzwierciedla unikalność każdej nieruchomości."
+    }
+  },
+  "slider": {
+    "title": "Portfolio",
+    "descr": "Odkryj Piękno Nieruchomości",
+    "button": "Wszystkie Projekty"
+  },
+  "contacts": {
+    "title": "Kontakt",
+    "descr": "Skontaktuj się z nami w dowolny sposób, który dla Ciebie działa"
+  },
+  "footer": {
+    "title": "Gdzie każda nieruchomość opowiada historię",
+    "descr": "Witaj w Vome - Twoim partnerem w zakresie usług fotografii i wideofilmowania nieruchomości w Polsce",
+    "sections": "Sekcje strony",
+    "info": "Informacje prawne"
+  }
+}

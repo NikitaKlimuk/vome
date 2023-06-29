@@ -5,6 +5,7 @@ import "./styles.scss";
 export const LangToggler: React.FC = () => {
   const { i18n } = useTranslation();
   const [currentLanguage, setCurrentLanguage] = useState(i18n.language);
+  const language = localStorage.getItem("language");
 
   const handleLanguageChange = (lang: string) => {
     localStorage.setItem("language", lang);
@@ -13,12 +14,11 @@ export const LangToggler: React.FC = () => {
   };
 
   useEffect(() => {
-    const language = localStorage.getItem("language");
-    if (language && currentLanguage !== language) {
+    if (language) {
       i18n.changeLanguage(language);
       setCurrentLanguage(language);
     }
-  }, [currentLanguage, i18n]);
+  }, [currentLanguage, language, i18n]);
 
   return (
     <div className="toggler">

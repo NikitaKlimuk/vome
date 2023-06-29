@@ -1,0 +1,45 @@
+{
+  "navbar": {
+    "portfolio": "Portfolio",
+    "prices": "Prices",
+    "about": "About"
+  },
+  "hero": {
+    "title": "Where Every Property Tells a Story",
+    "descr": "Welcome to Vome - your partner for real estate photography and videography services in Poland. We specialize in creating high-quality and captivating visuals that will help you sell or rent properties quickly and effectively."
+  },
+  "offers": {
+    "title": "We offer a full range of real estate photography and videography services.",
+    "quality": {
+      "title": "Professional Quality",
+      "descr": "We strive for excellence and deliver high-quality photos and videos that capture the ambiance and attractiveness of each property."
+    },
+    "creativity": {
+      "title": "Creativity",
+      "descr": "We have an eye for the uniqueness of every home and find creative ways to accentuate its advantages."
+    },
+    "efficiency": {
+      "title": "Efficiency",
+      "descr": "Our team works quickly and professionally to ensure your properties are ready for showcasing in the shortest possible time."
+    },
+    "personalization": {
+      "title": "Personalization",
+      "descr": "We take into account your individual needs and aim to provide you with a solution that reflects the uniqueness of each property."
+    }
+  },
+  "slider": {
+    "title": "Portfolio",
+    "descr": "Discover the Beauty of Properties",
+    "button": "All Portfolio"
+  },
+  "contacts": {
+    "title": "Contacts",
+    "descr": "Contact us in any way that works for you"
+  },
+  "footer": {
+    "title": "Where Every Property Tells a Story",
+    "descr": "Welcome to Vome - your partner for real estate photography and videography services in Poland",
+    "sections": "Site sections",
+    "info": "Legal information"
+  }
+}
