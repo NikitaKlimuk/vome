@@ -10,9 +10,9 @@ export const Navbar: React.FC<IProps> = () => {
   return (
     <section className="navbar">
       <div className="navbar__items">
-        <div>{t("navbar.portfolio")}</div>
-        <div>{t("navbar.prices")}</div>
-        <div>{t("navbar.about")}</div>
+        <a href="/portfolio">{t("navbar.portfolio")}</a>
+        <a href="/prices">{t("navbar.prices")}</a>
+        <a href="/about">{t("navbar.about")}</a>
       </div>
       <div className="navbar__language">
         <LangToggler />

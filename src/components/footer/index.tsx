@@ -9,16 +9,22 @@ export const Footer: React.FC<IProps> = () => {
   return (
     <section className="footer">
       <div className="footer__title">
-        <h2>Vome</h2>
+        <a href="/">Vome</a>
         <h3>{t("footer.title")}</h3>
         <p>{t("footer.descr")}</p>
       </div>
       <div className="footer__links">
         <div className="footer__links-menu">
           <ul aria-label={`${t("footer.sections")}`}>
-            <li>{t("navbar.portfolio")}</li>
-            <li>{t("navbar.prices")}</li>
-            <li>{t("navbar.about")}</li>
+            <li>
+              <a href="/portfolio">{t("navbar.portfolio")}</a>
+            </li>
+            <li>
+              <a href="/prices">{t("navbar.prices")}</a>
+            </li>
+            <li>
+              <a href="/about">{t("navbar.about")}</a>
+            </li>
           </ul>
         </div>
         <div className="footer__links-info">

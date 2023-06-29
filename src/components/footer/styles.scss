@@ -5,12 +5,13 @@
   display: flex;
   justify-content: space-between;
   &__title {
-    h2 {
+    a {
       font-size: 47px;
       font-weight: 900;
-      padding-bottom: 30px;
+      color: #fff;
     }
     h3 {
+      padding-top: 30px;
       font-size: 21px;
       font-weight: 900;
       padding-bottom: 20px;
@@ -37,6 +38,9 @@
         line-height: 160%;
         list-style: none;
         padding-top: 16px;
+        a {
+          color: #fff;
+        }
       }
     }
     &-info {
