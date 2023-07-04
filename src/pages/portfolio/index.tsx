@@ -46,7 +46,7 @@ export const PortfolioPage = () => {
           is approached
         </p>
         <div className="portfolio__price-btn">
-          <ButtonLink title={"Price"} link={"/price"} rightArrow />
+          <ButtonLink title={"Prices"} link={"/prices"} rightArrow />
         </div>
       </div>
     </section>
