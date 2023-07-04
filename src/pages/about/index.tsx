@@ -1,3 +1,9 @@
+import ButtonBack from "../../components/buttonBack";
+
 export const AboutPage = () => {
-  return <div>About</div>;
+  return (
+    <div>
+      <ButtonBack title="Main page" />
+    </div>
+  );
 };

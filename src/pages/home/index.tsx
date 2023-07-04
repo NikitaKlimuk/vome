@@ -1,7 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { CustomSlider } from "../../components/slider";
 import ButtonLink from "../../components/buttonLink";
-
 import "./styles.scss";
 
 export const HomePage = () => {

@@ -1,0 +1,66 @@
+.portfolio {
+  &__video {
+    &-title {
+      padding-top: 80px;
+      font-size: 70px;
+      font-weight: 700;
+    }
+    &-descr {
+      width: 721px;
+      padding-top: 40px;
+      font-size: 20px;
+      font-weight: 400;
+    }
+    &-reels {
+      padding-top: 80px;
+      width: 100%;
+    }
+  }
+  &__photo {
+    padding-top: 120px;
+    &-title {
+      font-size: 40px;
+      font-weight: 700;
+    }
+    &-descr {
+      width: 421px;
+      padding-top: 20px;
+      font-size: 20px;
+      font-weight: 400;
+    }
+    &-tabs {
+      padding-top: 40px;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      &__item {
+        width: 414px;
+        transition: 0.5s ease-in-out;
+      }
+      &__item:hover {
+        scale: 105%;
+        transition: 0.5s ease-in-out;
+      }
+    }
+  }
+  &__price {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-bottom: 40px;
+    padding-top: 120px;
+    width: 580px;
+    &-title {
+      font-size: 70px;
+      font-weight: 700;
+    }
+    &-descr {
+      padding-top: 180px;
+    }
+    &-btn {
+      padding-top: 40px;
+      width: 350px;
+    }
+  }
+}
