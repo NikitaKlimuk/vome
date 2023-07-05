@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import ButtonBack from "../../components/buttonBack";
 import ButtonLink from "../../components/buttonLink";
 import emailjs from "@emailjs/browser";
+import { useTranslation } from "react-i18next";
 import "./styles.scss";
 
 export const PricesPage = () => {
@@ -10,6 +11,7 @@ export const PricesPage = () => {
   const [message, setMessage] = useState("");
 
   const form = useRef(null);
+  const { t } = useTranslation();
 
   const serviceId = process.env.REACT_APP_SERVICE_ID as string;
   const templateId = process.env.REACT_APP_TEMPLATE_ID as string;
@@ -35,71 +37,67 @@ export const PricesPage = () => {
 
   return (
     <div className="container prices">
-      <ButtonBack title="Main page" />
-      <h2 className="prices__title">Price List</h2>
+      <ButtonBack title={t("buttons.home")} />
+      <h2 className="prices__title">{t("prices.title")}</h2>
       <div className="prices__list">
         <div className="prices__list-item">
           <div>
-            <p>Package 1</p>
-            <h3>Real Estate Photography</h3>
-            <li>10-15 professionally edited photographs</li>
-            <li>Turnaround time: 1-3 days</li>
+            <p>{t("prices.package")} 1</p>
+            <h3>{t("prices.photos.title")}</h3>
+            <li>{t("prices.photos.content")}</li>
+            <li>{t("prices.photos.time")}</li>
           </div>
           <div>
-            <p>Price</p>
+            <p>{t("prices.price")}</p>
             <h3>400 PLN</h3>
             <div className="prices__list-item__btn">
-              <ButtonLink title="Сhoose a package " link="/" />
+              <ButtonLink title={t("buttons.package")} link="/" />
             </div>
           </div>
         </div>
         <div className="prices__list-item">
           <div>
-            <p>Package 2</p>
-            <h3>Real Estate Videography</h3>
-            <li>1-2 minute video tour of the property</li>
-            <li>Turnaround time: 2-4 days</li>
-            <li>Vertical social media video (reels-like)</li>
+            <p>{t("prices.package")} 2</p>
+            <h3>{t("prices.videos.title")}</h3>
+            <li>{t("prices.videos.content")}</li>
+            <li>{t("prices.videos.time")}</li>
+            <li>{t("prices.videos.dop")}</li>
           </div>
           <div>
-            <p>Price</p>
+            <p>{t("prices.price")}</p>
             <h3>600 PLN</h3>
             <div className="prices__list-item__btn">
-              <ButtonLink title="Сhoose a package " link="/" />
+              <ButtonLink title={t("buttons.package")} link="/" />
             </div>
           </div>
         </div>
         <div className="prices__list-item">
           <div>
-            <p>Package 3</p>
-            <h3>10-15 professionally edited photographs</h3>
-            <li>1-2 minute video tour of the property</li>
-            <li>Vertical video (10-30 seconds)</li>
-            <li>Turnaround time: 1-3 days</li>
+            <p>{t("prices.package")} 3</p>
+            <h3>{t("prices.full.title")}</h3>
+            <li>{t("prices.full.photo")}</li>
+            <li>{t("prices.full.video")}</li>
+            <li>{t("prices.full.dop")}</li>
+            <li>{t("prices.full.time")}</li>
           </div>
           <div>
-            <p>Price</p>
+            <p>{t("prices.price")}</p>
             <h3>800 PLN</h3>
             <div className="prices__list-item__btn">
-              <ButtonLink title="Сhoose a package " link="/" />
+              <ButtonLink title={t("buttons.package")} link="/" />
             </div>
           </div>
         </div>
       </div>
       <div className="prices__aero">
-        <h3>Aerial Photography and Videography (Coming Soon)</h3>
-        <p>Aerial photos and videos of the property. +300 PLN to any package</p>
+        <h3>{t("prices.aero.title")}</h3>
+        <p>{t("prices.aero.descr")}</p>
       </div>
       <div className="prices__offers">
-        <h3>Special Offers for Agencies</h3>
-        <p>
-          Contact us to discuss special pricing and customized packages designed
-          specifically for your agency's requirements. Fill out the contact form
-          below, and our team will get back to you promptly to provide further
-          assistance.
-        </p>
+        <h3>{t("prices.offers.title")}</h3>
+        <p>{t("prices.offers.descr")}</p>
         <form className="prices__offers-form" ref={form} onSubmit={sendEmail}>
-          <label>Your Name</label>
+          <label>{t("prices.offers.name")}</label>
           <input
             required
             type="text"
@@ -108,7 +106,7 @@ export const PricesPage = () => {
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
-          <label>Email or phone number</label>
+          <label>{t("prices.offers.email")}</label>
           <input
             required
             type="text"
@@ -117,7 +115,7 @@ export const PricesPage = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
-          <label>Contact form</label>
+          <label>{t("prices.offers.textarea")}</label>
           <textarea
             name="message"
             className="prices__offers-form__textarea"
@@ -129,7 +127,7 @@ export const PricesPage = () => {
             type="submit"
             onClick={sendEmail}
           >
-            Send
+            {t("prices.offers.send")}
           </button>
         </form>
       </div>

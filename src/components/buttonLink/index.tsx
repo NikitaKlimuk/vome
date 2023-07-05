@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import arrowRight from "../../assets/icons/arrow-right.svg";
+import { useEffect } from "react";
 import "./styles.scss";
 
 interface IButtonLink {
@@ -17,9 +18,17 @@ const ButtonLink: React.FC<IButtonLink> = ({
 }) => {
   const navigate = useNavigate();
 
+  const handleClick = () => {
+    navigate(link);
+  };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <button
-      onClick={() => navigate(link)}
+      onClick={handleClick}
       className={className ? className : "btn-outline"}
       rel="noreferrer"
     >

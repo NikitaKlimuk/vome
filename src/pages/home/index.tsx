@@ -19,7 +19,7 @@ export const HomePage = () => {
         <div className="homePage__hero-bottom">
           <div className="homePage__hero-bottom__buttons">
             <ButtonLink title={t("navbar.portfolio")} link="/portfolio" />
-            <ButtonLink title={t("navbar.prices")} link="/price" />
+            <ButtonLink title={t("navbar.prices")} link="/prices" />
           </div>
         </div>
       </section>

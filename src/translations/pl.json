@@ -36,6 +36,60 @@
     "title": "Kontakt",
     "descr": "Skontaktuj się z nami w dowolny sposób, który dla Ciebie działa"
   },
+  "portfolio": {
+    "video": {
+      "title": "Witamy w naszym Portfolio",
+      "descr": "Dziękujemy za odwiedzenie naszej strony portfolio na Vome. Podczas gdy ciągle rozwijamy naszą kolekcję projektów fotografii i wideofilmowania nieruchomości, z radością dzielimy się dotychczasowymi osiągnięciami. Każdy projekt, który podejmujemy, realizowany jest z wyjątkowymi rezultatami."
+    },
+    "photos": {
+      "title": "Zdjęcia",
+      "descr": "Przeglądaj nasze fascynujące portfolio fotografii nieruchomości. Od widoków z lotu ptaka po ujęcia wnętrz, nasze zdjęcia uchwycą istotę nieruchomości. Pozwól naszym zdjęciom przemówić same za siebie."
+    },
+    "prices": {
+      "title": "Zobacz cenę",
+      "descr": "Odkryj wartość, jaką oferujemy w naszych usługach. W Vome pasjonujemy się rejestrowaniem projektów fotografii i wideofilmowania nieruchomości, które przekraczają oczekiwania. Zapoznaj się poniżej z naszymi konkurencyjnymi opcjami cenowymi:"
+    }
+  },
+  "prices": {
+    "title": "Cennik",
+    "package": "Pakiet",
+    "price": "Cena",
+    "photos": {
+      "title": "Fotografia nieruchomości",
+      "content": "10-15 profesjonalnie edytowanych fotografii",
+      "time": "Czas realizacji: 1-3 dni"
+    },
+    "videos": {
+      "title": "Wideofilmowanie nieruchomości",
+      "content": "Wideo wycieczka po nieruchomości trwająca 1-2 minuty",
+      "time": "Czas realizacji: 2-4 dni",
+      "dop": "Wideo w formacie pionowym do mediów społecznościowych (np. Reels)"
+    },
+    "full": {
+      "title": "Pełen pakiet",
+      "photo": "10-15 profesjonalnie edytowanych fotografii",
+      "video": "Wideo wycieczka po nieruchomości trwająca 1-2 minuty",
+      "time": "Czas realizacji: 1-3 dni",
+      "dop": "Wideo w formacie pionowym do mediów społecznościowych (np. Reels)"
+    },
+    "aero": {
+      "title": "Fotografia i wideofilmowanie z powietrza (Wkrótce dostępne)",
+      "descr": "Zdjęcia i filmy z powietrza nieruchomości. +400 PLN do każdego pakietu"
+    },
+    "offers": {
+      "title": "Oferty specjalne dla Agencji",
+      "descr": "Skontaktuj się z nami, aby omówić specjalne ceny i dostosowane pakiety stworzone specjalnie dla wymagań Twojej agencji. Wypełnij poniższy formularz kontaktowy, a nasz zespół skontaktuje się z Tobą w celu udzielenia dalszej pomocy.",
+      "name": "Twoje imię",
+      "email": "E-mail lub numer telefonu",
+      "textarea": "Twoja wiadomość",
+      "send": "Wyślij"
+    }
+  },
+  "buttons": {
+    "home": "Strona główna",
+    "prices": "Ceny",
+    "package": "Wybierz pakiet"
+  },
   "footer": {
     "title": "Gdzie każda nieruchomość opowiada historię",
     "descr": "Witaj w Vome - Twoim partnerem w zakresie usług fotografii i wideofilmowania nieruchomości w Polsce",

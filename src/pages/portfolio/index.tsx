@@ -2,29 +2,25 @@ import ButtonBack from "../../components/buttonBack";
 import ButtonLink from "../../components/buttonLink";
 import videoPrew from "../../assets/img/portfolio/image 12.jpg";
 import { portfolioCards } from "../../config/portfolioCards";
+import { useTranslation } from "react-i18next";
 import "./styles.scss";
 
 export const PortfolioPage = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="container portfolio">
       <div className="portfolio__video">
-        <ButtonBack title="Main page" />
-        <h2 className="portfolio__video-title">Welcome to our Portfolio</h2>
-        <h3 className="portfolio__video-descr">
-          Thank you for visiting our portfolio page at Vome. While we continue
-          to build our collection of real estate photography and videography
-          projects, we are excited to share with you the work we have
-          accomplished so far. Each project we undertake is approached with
-          exceptional results.
-        </h3>
+        <ButtonBack title={t("buttons.home")} />
+        <h2 className="portfolio__video-title">{t("portfolio.video.title")}</h2>
+        <h3 className="portfolio__video-descr">{t("portfolio.video.descr")}</h3>
         <img className="portfolio__video-reels" src={videoPrew} alt="test" />
       </div>
       <div className="portfolio__photo">
-        <h2 className="portfolio__photo-title">Photos</h2>
-        <p className="portfolio__photo-descr">
-          work we have accomplished so far. Each project we undertake is
-          approached
-        </p>
+        <h2 className="portfolio__photo-title">
+          {t("portfolio.photos.title")}
+        </h2>
+        <p className="portfolio__photo-descr">{t("portfolio.photos.descr")}</p>
         <div className="portfolio__photo-tabs">
           {portfolioCards.map((item, i) => {
             return (
@@ -39,14 +35,12 @@ export const PortfolioPage = () => {
         </div>
       </div>
       <div className="portfolio__price">
-        <h3 className="portfolio__price-title">See the price</h3>
-        <p className="portfolio__price-descr">
-          work we have accomplished so far. Each project we undertake is
-          approached work we have accomplished so far. Each project we undertake
-          is approached
-        </p>
+        <h3 className="portfolio__price-title">
+          {t("portfolio.prices.title")}
+        </h3>
+        <p className="portfolio__price-descr">{t("portfolio.prices.descr")}</p>
         <div className="portfolio__price-btn">
-          <ButtonLink title={"Prices"} link={"/prices"} rightArrow />
+          <ButtonLink title={t("buttons.prices")} link="/prices" rightArrow />
         </div>
       </div>
     </section>
