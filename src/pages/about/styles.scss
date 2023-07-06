@@ -1,0 +1,66 @@
+.about {
+  &-title {
+    padding-top: 80px;
+    font-size: 70px;
+    font-weight: 700;
+  }
+  &__section {
+    min-height: fit-content;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    &-text {
+      h3 {
+        font-size: 24px;
+        font-weight: 700;
+      }
+      p {
+        font-size: 20px;
+        font-weight: 400;
+        padding-top: 24px;
+        width: 420px;
+      }
+    }
+  }
+  &__offers {
+    &-title {
+      width: 892px;
+      padding-top: 120px;
+      font-size: 32px;
+      font-weight: 500;
+    }
+    &-thanks {
+      width: 892px;
+      padding-top: 80px;
+      font-size: 32px;
+      font-weight: 500;
+    }
+    &-list {
+      padding-top: 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      gap: 40px;
+      &__item {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        div {
+          font-size: 54px;
+          font-weight: 500;
+          padding-right: 20px;
+          border-right: 1px solid #000;
+        }
+        p {
+          width: 850px;
+          font-size: 20px;
+          font-weight: 400;
+        }
+      }
+    }
+    &-thanks {
+      padding-bottom: 120px;
+    }
+  }
+}

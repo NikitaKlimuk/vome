@@ -85,6 +85,23 @@
       "send": "Send"
     }
   },
+  "about": {
+    "title": "About Vome",
+    "hi": "Hello",
+    "mikita": "I'm Mikita Klimuk, a professional videographer with over 5 years of experience in the field. Throughout my career, I have worked on numerous diverse and challenging projects, honing my skills and pushing the boundaries of visual storytelling. With a passion for capturing captivating moments, I have dedicated myself to delivering high-quality video content.",
+    "experience": "For more than 4 years, I have been creating content for YouTube, building a strong online presence and cultivating a deep understanding of the digital landscape. This experience has allowed me to refine my craft, adapt to emerging trends, and develop a keen eye for engaging visual narratives.",
+    "editing": "Over the years, I have had the privilege of working on projects in multiple countries and collaborating with renowned brands. This exposure to different cultures and industries has expanded my perspective and enhanced my ability to bring unique stories to life through my lens.",
+    "offers": {
+      "title": "At Vome, we pride ourselves on offering exceptional services that set us apart. When you choose us, you can expect:",
+      "pricing": "Competitive Pricing: We believe that high-quality videography should be accessible to everyone. Our pricing is designed to offer excellent value without compromising on the quality of our work.",
+      "prof": "Professionalism and Reliability: We understand the importance of delivering on our promises. We take pride in our professionalism, meeting deadlines, and ensuring a smooth and seamless experience for our clients.",
+      "time": "Swift Turnaround: We value your time and strive to provide timely deliverables. Our efficient workflow allows us to maintain a quick turnaround time without compromising on quality.",
+      "equipment": "State-of-the-Art Equipment: We stay up-to-date with the latest videography equipment and technology to ensure that we can capture every detail with precision and clarity.",
+      "reletionship": "Personalized Approach: We believe in building strong relationships with our clients. We take the time to understand your unique vision and requirements, tailoring our services to meet your specific needs.",
+      "creative": "Creative Expertise: Our years of experience and diverse portfolio have equipped us with a wide range of creative techniques and storytelling approaches. We bring innovation and a fresh perspective to every project we undertake.",
+      "thanks": "Thank you for considering Vome. We are excited to collaborate with you and create stunning visual content that will exceed your expectations."
+    }
+  },
   "buttons": {
     "home": "Main page",
     "prices": "Prices",

@@ -85,6 +85,23 @@
       "send": "Wyślij"
     }
   },
+  "about": {
+    "title": "O firmie Vome",
+    "hi": "Cześć",
+    "mikita": "Jestem Mikita Klimuk, profesjonalnym wideografem z ponad 5-letnim doświadczeniem w branży. Przez całą moją karierę pracowałem nad różnorodnymi i wymagającymi projektami, doskonaląc swoje umiejętności i poszerzając granice opowiadania wizualnych historii. Z pasją do uchwycania fascynujących chwil, dedykuję się dostarczaniu wysokiej jakości treści wideo.",
+    "experience": "Przez ponad 4 lata tworzyłem treści dla YouTube, budując silną obecność online i zgłębiając wiedzę na temat krajobrazu cyfrowego. To doświadczenie pozwoliło mi doskonalić swoje rzemiosło, dostosowywać się do nowych trendów i rozwijać wyostrzone spojrzenie na angażujące narracje wizualne.",
+    "editing": "Na przestrzeni lat miałem przywilej pracować nad projektami w wielu krajach i współpracować z renomowanymi markami. To zetknięcie z różnymi kulturami i branżami poszerzyło moją perspektywę i wzmocniło zdolność ożywienia unikalnych historii poprzez mój obiektyw.",
+    "offers": {
+      "title": "W Vome dumimy się z oferowania wyjątkowych usług, które wyróżniają nas na tle innych. Wybierając nas, możesz oczekiwać:",
+      "pricing": "Konkurencyjnych cen: Wierzymy, że wysokiej jakości wideografia powinna być dostępna dla wszystkich. Nasze ceny są zaprojektowane tak, aby oferować doskonałą wartość bez kompromisów co do jakości naszych prac.",
+      "prof": "Profesjonalizmu i niezawodności: Rozumiemy znaczenie dotrzymania naszych obietnic. Cenimy sobie profesjonalizm, dotrzymywanie terminów i zapewnienie płynnego i bezproblemowego doświadczenia dla naszych klientów.",
+      "time": "Szybkiego czasu realizacji: Cenimy Twój czas i dążymy do terminowego dostarczenia efektów końcowych. Nasze efektywne metody pracy pozwalają nam utrzymać szybki czas realizacji bez kompromisów co do jakości.",
+      "equipment": "Sprzętu najwyższej klasy: Jesteśmy na bieżąco z najnowszym sprzętem i technologią wideograficzną, aby móc uchwycić każdy detal z precyzją i klarownością.",
+      "reletionship": "Spersonalizowanego podejścia: Wierzymy w budowanie silnych relacji z naszymi klientami. Poświęcamy czas na zrozumienie Twojej unikalnej wizji i wymagań, dostosowując nasze usługi, aby sprostać Twoim konkretnym potrzebom.",
+      "creative": "Kreatywnej ekspertyzy: Nasze lata doświadczenia i różnorodne portfolio wyposażyły nas w szeroki zakres kreatywnych technik i podejść do opowiadania historii. Przynosimy innowację i świeże spojrzenie do każdego projektu, który podejmujemy.",
+      "thanks": "Dziękujemy za rozważenie Vome. Jesteśmy podekscytowani współpracą z Tobą i tworzeniem oszałamiających treści wizualnych, które przekroczą Twoje oczekiwania."
+    }
+  },
   "buttons": {
     "home": "Strona główna",
     "prices": "Ceny",
